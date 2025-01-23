@@ -1,0 +1,50 @@
+### GET access token
+POST http://localhost:8080/realms/kdg_poker/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type = password &
+client_id = kdg_poker_frontend &
+client_secret = BLgFPl0HBHLTULQAOptmCwFJHEGlm3QI &
+username = user &
+password = password
+
+//saving the access token
+> {%
+    client.global.set("access_token", response.body.access_token);
+%}
+
+### POST INVITE
+POST http://localhost:8081/api/invites/11111111-1111-1111-1111-111111111333/pietje
+Content-Type: application/json
+Authorization: Bearer {{access_token}}
+
+### GET access token for invited user
+POST http://localhost:8080/realms/kdg_poker/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type = password &
+client_id = kdg_poker_frontend &
+client_secret = BLgFPl0HBHLTULQAOptmCwFJHEGlm3QI &
+username = user2 &
+password = password
+
+//saving the access token
+> {%
+    client.global.set("access_token", response.body.access_token);
+%}
+
+### ACCEPT INVITE
+POST http://localhost:8081/api/invites/74e5e9d1-e224-46fb-a88d-2fa300de4a29/accept
+Content-Type: application/json
+Authorization: Bearer {{access_token}}
+
+### DECLINE INVITE
+POST http://localhost:8081/api/invites/74e5e9d1-e224-46fb-a88d-2fa300de4a29/decline
+Content-Type: application/json
+Authorization: Bearer {{access_token}}
+
+### GET CURRENT INVITES
+GET http://localhost:8081/api/invites
+Content-Type: application/json
+Authorization: Bearer {{access_token}}
+

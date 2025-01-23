@@ -1,0 +1,2 @@
+### GET SHUFFLED DECK
+GET http://localhost:8081/api/decks/shuffle

@@ -1,0 +1,29 @@
+### GET access token
+POST http://localhost:8080/realms/kdg_poker/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type = password &
+client_id = kdg_poker_frontend &
+client_secret = BLgFPl0HBHLTULQAOptmCwFJHEGlm3QI &
+username = user &
+password = password
+
+//saving the access token
+> {%
+    client.global.set("access_token", response.body.access_token);
+%}
+
+###
+GET http://localhost:8081/api/gimmicks
+Content-Type: application/json
+Authorization: Bearer {{access_token}}
+
+### Purchase of gimmick
+POST http://localhost:8081/api/gimmicks/purchase/51549f1d-7e49-4cb5-8433-f1c5ba314975/33333333-3333-3333-3333-333333333333
+Content-Type: application/json
+Authorization: Bearer {{access_token}}
+
+### Get gimmicks of player
+GET http://localhost:8081/api/gimmicks/player/33333333-3333-3333-3333-333333333333
+Content-Type: application/json
+Authorization: Bearer {{access_token}}

@@ -1,0 +1,53 @@
+###
+POST http://localhost:8081/api/games/new
+Content-Type: application/json
+Authorization: Bearer {{access_token}}
+
+{
+  "minPlayers": 2,
+  "maxPlayers": 6,
+  "smallBlind": 50,
+  "security": "public"
+}
+
+
+### GET access token
+POST http://localhost:8080/realms/kdg_poker/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type = password &
+client_id = kdg_poker_frontend &
+client_secret = BLgFPl0HBHLTULQAOptmCwFJHEGlm3QI &
+username = user &
+password = password
+
+//saving the access token
+> {%
+    client.global.set("access_token", response.body.access_token);
+%}
+
+###
+GET http://localhost:8081/api/games/aa1d0735-acfc-4afe-be6a-fbefcc1c2cdc
+Content-Type: application/json
+Authorization: Bearer {{access_token}}
+
+###
+POST http://localhost:8081/api/games/11111111-1111-1111-1111-111111111333/start
+Content-Type: application/json
+Authorization: Bearer {{access_token}}
+
+###
+POST http://localhost:8081/api/games/11111111-1111-1111-1111-111111111333/join
+Content-Type: application/json
+Authorization: Bearer {{access_token}}
+
+### Get latest bettinground of game
+GET http://localhost:8081/api/bets/502cb334-997a-4bec-89c2-863c0a642608
+Content-Type: application/json
+Authorization: Bearer {{access_token}}
+
+
+### Get achievements
+GET http://localhost:8081/api/achievements
+Content-Type: application/json
+Authorization: Bearer {{access_token}}

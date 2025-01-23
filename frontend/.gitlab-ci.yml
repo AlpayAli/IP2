@@ -1,0 +1,55 @@
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  image: node:20
+  script:
+    - echo "Installing dependencies and building the project..."
+    - npm install
+    - npm run build
+
+deploy_local:
+  stage: deploy
+  image: docker:20.10.24
+  services:
+    - docker:dind
+  variables:
+    DOCKER_DRIVER: overlay2
+    VITE_BACKEND_URL: $VITE_BACKEND_URL_LOCAL
+    VITE_KEYCLOAK_URL: $VITE_KEYCLOAK_URL_LOCAL
+    VITE_KEYCLOAK_REALM: $VITE_KEYCLOAK_REALM
+    VITE_KEYCLOAK_CLIENT_ID: $VITE_KEYCLOAK_CLIENT_ID
+
+  script:
+    - echo "Building Docker image for local environment..."
+    - docker build --no-cache --build-arg VITE_BACKEND_URL=$VITE_BACKEND_URL_LOCAL --build-arg VITE_KEYCLOAK_URL=$VITE_KEYCLOAK_URL_LOCAL --build-arg VITE_KEYCLOAK_REALM=$VITE_KEYCLOAK_REALM --build-arg VITE_KEYCLOAK_CLIENT_ID=$VITE_KEYCLOAK_CLIENT_ID -t $CI_REGISTRY/kdg-ti/integratieproject-2/2024-2025/team6/frontend/react-frontend:local .
+    - echo "Logging into GitLab Container Registry..."
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - echo "Pushing local Docker image to GitLab registry..."
+    - docker push $CI_REGISTRY/kdg-ti/integratieproject-2/2024-2025/team6/frontend/react-frontend:local
+  only:
+    - main
+
+deploy_production:
+  stage: deploy
+  image: docker:20.10.24
+  services:
+    - docker:dind
+  variables:
+    DOCKER_DRIVER: overlay2
+    VITE_BACKEND_URL: $VITE_BACKEND_URL_PRODUCTION
+    VITE_KEYCLOAK_URL: $VITE_KEYCLOAK_URL_PRODUCTION
+    VITE_KEYCLOAK_REALM: $VITE_KEYCLOAK_REALM
+    VITE_KEYCLOAK_CLIENT_ID: $VITE_KEYCLOAK_CLIENT_ID
+
+  script:
+    - echo "Building Docker image for production environment..."
+    - docker build --build-arg VITE_BACKEND_URL=$VITE_BACKEND_URL_PRODUCTION --build-arg VITE_KEYCLOAK_URL=$VITE_KEYCLOAK_URL_PRODUCTION --build-arg VITE_KEYCLOAK_REALM=$VITE_KEYCLOAK_REALM --build-arg VITE_KEYCLOAK_CLIENT_ID=$VITE_KEYCLOAK_CLIENT_ID -t $CI_REGISTRY/kdg-ti/integratieproject-2/2024-2025/team6/frontend/react-frontend:production .
+    - echo "Logging into GitLab Container Registry..."
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - echo "Pushing production Docker image to GitLab registry..."
+    - docker push $CI_REGISTRY/kdg-ti/integratieproject-2/2024-2025/team6/frontend/react-frontend:production
+  only:
+    - main
