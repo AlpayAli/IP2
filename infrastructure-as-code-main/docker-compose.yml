@@ -1,0 +1,50 @@
+services:
+  database-postgresql:
+    image: postgres:15.8-alpine
+    environment:
+      POSTGRES_DB: 'database-postgresql'
+      POSTGRES_USER: 'user'
+      POSTGRES_PASSWORD: 'password'
+    ports:
+      - '5432:5432'
+    networks:
+      - backend
+    volumes:
+      - ./database-postgresql/postgres/data:/var/lib/postgresql/data
+
+  kdg_poker_idp_postgres:
+    image: postgres:15.8-alpine
+    volumes:
+      - ./kdg_poker/idp/postgres/data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: keycloak
+      POSTGRES_USER: keycloak
+      POSTGRES_PASSWORD: password
+    networks:
+      - kc
+
+  keycloak-iam:
+    image: quay.io/keycloak/keycloak:25.0.5
+    environment:
+      - KEYCLOAK_ADMIN=user
+      - KEYCLOAK_ADMIN_PASSWORD=password
+      - KC_DB=postgres
+      - KC_DB_URL_HOST=kdg_poker_idp_postgres
+      - KC_DB_URL_DATABASE=keycloak
+      - KC_DB_USERNAME=keycloak
+      - KC_DB_PASSWORD=password
+    command: start-dev
+    ports:
+      - "8080:8080"
+    depends_on:
+      - kdg_poker_idp_postgres
+    networks:
+      - kc
+
+networks:
+  kc:
+    name: kc-network
+    driver: bridge
+  backend:
+    name: back-network
+    driver: bridge
