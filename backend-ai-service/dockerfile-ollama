@@ -1,0 +1,24 @@
+# Start from the official Ollama image
+FROM ollama/ollama
+
+# Install curl and bash for debugging
+RUN apt-get update && apt-get install -y curl bash dos2unix
+
+# Define the model to pull
+ENV MODEL_NAME=llama3
+ENV EMBED_NAME=nomic-embed-text
+
+# Copy the custom entrypoint script, making sure it's executable
+COPY ./entrypoint.sh /app/entrypoint.sh
+
+# Ensure it's executable, even if copy command fails to preserve permissions
+RUN chmod +x /app/entrypoint.sh
+
+# Ensure correct line endings
+RUN dos2unix /app/entrypoint.sh
+
+# Default command: bash for debugging
+CMD ["bash"]
+
+# Use the custom entrypoint
+ENTRYPOINT ["/app/entrypoint.sh"]

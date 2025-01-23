@@ -1,0 +1,191 @@
+[2025-01-05 12:49:41] Initializing the database...
+[2025-01-05 12:49:41] Health check attempt 1 started.
+[2025-01-05 12:49:44] Health check attempt 1 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E5ABD3AC30>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:49:49] Health check attempt 2 started.
+[2025-01-05 12:49:52] Health check attempt 2 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E5ACAC0B90>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:49:57] Health check attempt 3 started.
+[2025-01-05 12:49:59] Health check attempt 3 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E5AC9BF200>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:50:04] Health check attempt 4 started.
+[2025-01-05 12:50:07] Health check attempt 4 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E5ACAC0650>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:50:14] Initializing the database...
+[2025-01-05 12:50:14] Health check attempt 1 started.
+[2025-01-05 12:50:17] Health check attempt 1 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000260FD43B260>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:50:22] Health check attempt 2 started.
+[2025-01-05 12:50:25] Health check attempt 2 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000260FDE90A70>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:50:30] Health check attempt 3 started.
+[2025-01-05 12:50:32] Health check attempt 3 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000260FD174830>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:50:37] Health check attempt 4 started.
+[2025-01-05 12:50:40] Health check attempt 4 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000260FDE90680>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:51:01] Initializing the database...
+[2025-01-05 12:51:01] Health check attempt 1 started.
+[2025-01-05 12:51:03] Health check attempt 1 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000014F016CB980>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:51:10] Initializing the database...
+[2025-01-05 12:51:10] Health check attempt 1 started.
+[2025-01-05 12:51:12] Health check attempt 1 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944C857FB0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:51:17] Health check attempt 2 started.
+[2025-01-05 12:51:20] Health check attempt 2 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944D560BF0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:51:25] Health check attempt 3 started.
+[2025-01-05 12:51:28] Health check attempt 3 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944D4A8EC0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:51:33] Health check attempt 4 started.
+[2025-01-05 12:51:36] Health check attempt 4 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944D560920>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:51:41] Health check attempt 5 started.
+[2025-01-05 12:51:44] Health check attempt 5 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944D5612E0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:51:49] Health check attempt 6 started.
+[2025-01-05 12:51:51] Health check attempt 6 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944D561A90>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:51:56] Health check attempt 7 started.
+[2025-01-05 12:51:59] Health check attempt 7 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944D5622A0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:52:04] Health check attempt 8 started.
+[2025-01-05 12:52:07] Health check attempt 8 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944D562AE0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:52:12] Health check attempt 9 started.
+[2025-01-05 12:52:14] Health check attempt 9 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944CD42D80>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:52:19] Health check attempt 10 started.
+[2025-01-05 12:52:22] Health check attempt 10 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944D561760>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:52:27] Health check attempt 11 started.
+[2025-01-05 12:52:30] Health check attempt 11 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944D5607A0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:52:35] Health check attempt 12 started.
+[2025-01-05 12:52:37] Health check attempt 12 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944D560DD0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:52:42] Health check attempt 13 started.
+[2025-01-05 12:52:45] Health check attempt 13 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944D5632F0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:52:50] Health check attempt 14 started.
+[2025-01-05 12:52:53] Health check attempt 14 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944D563C80>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:52:58] Health check attempt 15 started.
+[2025-01-05 12:53:01] Health check attempt 15 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944CC42AB0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:53:06] Health check attempt 16 started.
+[2025-01-05 12:53:08] Health check attempt 16 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944D560EF0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:53:13] Health check attempt 17 started.
+[2025-01-05 12:53:16] Health check attempt 17 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944D561490>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:53:21] Health check attempt 18 started.
+[2025-01-05 12:53:24] Health check attempt 18 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944D561A90>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:53:29] Health check attempt 19 started.
+[2025-01-05 12:53:32] Health check attempt 19 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944D562870>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:53:37] Health check attempt 20 started.
+[2025-01-05 12:53:39] Health check attempt 20 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944D590710>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:53:44] Health check attempt 21 started.
+[2025-01-05 12:53:47] Health check attempt 21 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944D561E20>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:53:52] Health check attempt 22 started.
+[2025-01-05 12:53:55] Health check attempt 22 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944D5607A0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:54:00] Health check attempt 23 started.
+[2025-01-05 12:54:02] Health check attempt 23 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944D560BC0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:54:07] Health check attempt 24 started.
+[2025-01-05 12:54:10] Health check attempt 24 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944D562DE0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 12:54:15] Health check attempt 25 started.
+[2025-01-05 12:54:18] Health check attempt 25 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002944C8DC830>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:47:22] Initializing the database...
+[2025-01-05 15:47:22] Health check attempt 1 started.
+[2025-01-05 15:47:25] Health check attempt 1 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002D2B51C08C0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:47:30] Health check attempt 2 started.
+[2025-01-05 15:47:33] Health check attempt 2 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002D2B51C0EC0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:47:38] Health check attempt 3 started.
+[2025-01-05 15:47:41] Health check attempt 3 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002D2B4478E60>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:47:46] Health check attempt 4 started.
+[2025-01-05 15:47:48] Health check attempt 4 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002D2B51C0C50>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:47:53] Health check attempt 5 started.
+[2025-01-05 15:47:56] Health check attempt 5 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002D2B51C1610>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:48:01] Health check attempt 6 started.
+[2025-01-05 15:48:04] Health check attempt 6 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002D2B51C1DC0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:48:09] Health check attempt 7 started.
+[2025-01-05 15:48:11] Health check attempt 7 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002D2B51C25D0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:48:16] Health check attempt 8 started.
+[2025-01-05 15:48:19] Health check attempt 8 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002D2B51C2E10>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:48:24] Health check attempt 9 started.
+[2025-01-05 15:48:27] Health check attempt 9 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002D2B51C22D0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:48:32] Health check attempt 10 started.
+[2025-01-05 15:48:35] Health check attempt 10 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002D2B51C1E20>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:48:40] Health check attempt 11 started.
+[2025-01-05 15:48:42] Health check attempt 11 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002D2B51C1370>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:48:47] Health check attempt 12 started.
+[2025-01-05 15:48:50] Health check attempt 12 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002D2B51C0F50>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:48:55] Health check attempt 13 started.
+[2025-01-05 15:48:58] Health check attempt 13 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002D2B51C3590>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:49:03] Health check attempt 14 started.
+[2025-01-05 15:49:05] Health check attempt 14 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002D2B51C3F20>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:49:10] Health check attempt 15 started.
+[2025-01-05 15:49:13] Health check attempt 15 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002D2B51C2ED0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:49:18] Health check attempt 16 started.
+[2025-01-05 15:49:21] Health check attempt 16 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002D2B51C0A70>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:49:26] Health check attempt 17 started.
+[2025-01-05 15:49:28] Health check attempt 17 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002D2B51C1940>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:49:33] Health check attempt 18 started.
+[2025-01-05 15:49:36] Health check attempt 18 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002D2B51C24B0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:49:41] Health check attempt 19 started.
+[2025-01-05 15:49:44] Health check attempt 19 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002D2B519BF50>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:49:49] Health check attempt 20 started.
+[2025-01-05 15:49:52] Health check attempt 20 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002D2B51F0950>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:49:57] Health check attempt 21 started.
+[2025-01-05 15:49:59] Health check attempt 21 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002D2B51C1D60>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:50:04] Health check attempt 22 started.
+[2025-01-05 15:50:07] Health check attempt 22 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002D2B51C0110>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:51:23] Initializing the database...
+[2025-01-05 15:51:23] Health check attempt 1 started.
+[2025-01-05 15:51:25] Health check attempt 1 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000027F2725E990>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:51:44] Initializing the database...
+[2025-01-05 15:51:44] Health check attempt 1 started.
+[2025-01-05 15:51:46] Health check attempt 1 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F7EB8F0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:51:51] Health check attempt 2 started.
+[2025-01-05 15:51:54] Health check attempt 2 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F810B30>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:51:59] Health check attempt 3 started.
+[2025-01-05 15:52:02] Health check attempt 3 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2EA2DAC0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:52:07] Health check attempt 4 started.
+[2025-01-05 15:52:09] Health check attempt 4 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F810950>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:52:14] Health check attempt 5 started.
+[2025-01-05 15:52:17] Health check attempt 5 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F8112E0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:52:22] Health check attempt 6 started.
+[2025-01-05 15:52:25] Health check attempt 6 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F811A60>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:52:30] Health check attempt 7 started.
+[2025-01-05 15:52:33] Health check attempt 7 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F812270>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:52:38] Health check attempt 8 started.
+[2025-01-05 15:52:40] Health check attempt 8 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F812AB0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:52:45] Health check attempt 9 started.
+[2025-01-05 15:52:48] Health check attempt 9 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F811DC0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:52:53] Health check attempt 10 started.
+[2025-01-05 15:52:56] Health check attempt 10 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F811A60>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:53:01] Health check attempt 11 started.
+[2025-01-05 15:53:03] Health check attempt 11 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F811340>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:53:08] Health check attempt 12 started.
+[2025-01-05 15:53:11] Health check attempt 12 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F810CE0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:53:16] Health check attempt 13 started.
+[2025-01-05 15:53:19] Health check attempt 13 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F813290>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:53:24] Health check attempt 14 started.
+[2025-01-05 15:53:27] Health check attempt 14 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F813BC0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:53:32] Health check attempt 15 started.
+[2025-01-05 15:53:34] Health check attempt 15 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F812CF0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:53:39] Health check attempt 16 started.
+[2025-01-05 15:53:42] Health check attempt 16 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F810A10>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:53:47] Health check attempt 17 started.
+[2025-01-05 15:53:50] Health check attempt 17 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F8119D0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:53:55] Health check attempt 18 started.
+[2025-01-05 15:53:57] Health check attempt 18 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F812000>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:54:02] Health check attempt 19 started.
+[2025-01-05 15:54:05] Health check attempt 19 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F813C80>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:54:10] Health check attempt 20 started.
+[2025-01-05 15:54:13] Health check attempt 20 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F8446E0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:54:18] Health check attempt 21 started.
+[2025-01-05 15:54:20] Health check attempt 21 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F811AF0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:54:25] Health check attempt 22 started.
+[2025-01-05 15:54:28] Health check attempt 22 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F811040>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:54:33] Health check attempt 23 started.
+[2025-01-05 15:54:36] Health check attempt 23 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F810CB0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:54:41] Health check attempt 24 started.
+[2025-01-05 15:54:44] Health check attempt 24 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F8132F0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:54:49] Health check attempt 25 started.
+[2025-01-05 15:54:51] Health check attempt 25 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F124740>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:54:56] Health check attempt 26 started.
+[2025-01-05 15:54:59] Health check attempt 26 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F845010>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:55:04] Health check attempt 27 started.
+[2025-01-05 15:55:07] Health check attempt 27 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F812EA0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:55:12] Health check attempt 28 started.
+[2025-01-05 15:55:14] Health check attempt 28 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F810680>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:55:19] Health check attempt 29 started.
+[2025-01-05 15:55:22] Health check attempt 29 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F811A30>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:55:27] Health check attempt 30 started.
+[2025-01-05 15:55:30] Health check attempt 30 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F8126F0>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:55:35] Health check attempt 31 started.
+[2025-01-05 15:55:38] Health check attempt 31 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F732D20>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:55:43] Health check attempt 32 started.
+[2025-01-05 15:55:45] Health check attempt 32 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F845910>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:55:50] Health check attempt 33 started.
+[2025-01-05 15:55:53] Health check attempt 33 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F64AE70>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 15:55:58] Health check attempt 34 started.
+[2025-01-05 15:56:01] Health check attempt 34 failed: HTTPConnectionPool(host='ollama', port=11434): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025F2F811280>: Failed to resolve 'ollama' ([Errno 11001] getaddrinfo failed)"))
+[2025-01-05 16:59:03] Initializing the database...
+[2025-01-05 17:07:16] Initializing the database...

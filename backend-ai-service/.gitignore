@@ -1,0 +1,7 @@
+/venv
+__pycache__/
+.idea/
+.gitlab/
+.gitlab-ci.yml
+/models
+/app/ml_models

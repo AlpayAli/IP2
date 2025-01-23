@@ -1,0 +1,95 @@
+Hand Management	Resource Management
+Income	Resource Management
+Trading	Resource Management
+Market	Resource Management
+Auction/Bidding	Resource Management
+Deck Bag and Pool Building	Resource Management
+Deck Construction	Resource Management
+Delayed Purchase	Resource Management
+Loans	Resource Management
+Investment	Resource Management
+Contracts	Resource Management
+Tile Placement	Puzzle Solving
+Worker Placement	Resource Management
+Worker Placement with Dice Workers	Resource Management
+Commodity Speculation	Resource Management
+Static Capture	Miscellaneous / Other
+Increase Value of Unchosen Resources	Resource Management
+Area Majority / Influence	Conflict Resolution
+Area Movement	Conflict Resolution
+Area-Impulse	Conflict Resolution
+Combat	Conflict Resolution
+Command Cards	Conflict Resolution
+Dice Rolling	Randomness and Luck
+Re-rolling and Locking	Conflict Resolution
+Kill Steal	Conflict Resolution
+Take That	Conflict Resolution
+King of the Hill	Conflict Resolution
+Role Playing	Social Interaction
+Secret Unit Deployment	Conflict Resolution
+Tug of War	Conflict Resolution
+Zone of Control	Conflict Resolution
+Ratio / Combat Results Table	Conflict Resolution
+Predictive Bid	Conflict Resolution
+Bidding	Conflict Resolution
+Auction: Dutch	Conflict Resolution
+Auction: English	Conflict Resolution
+Cooperative Game	Collaboration
+Semi-Cooperative Game	Collaboration
+Team-Based Game	Collaboration
+Negotiation	Collaboration
+Alliances	Collaboration
+Force Commitment	Collaboration
+Roles with Asymmetric Information	Collaboration
+Pattern Building	Puzzle Solving
+Set Collection	Puzzle Solving
+Pattern Recognition	Puzzle Solving
+Puzzle Solving	Puzzle Solving
+Mancala	Puzzle Solving
+Grid Coverage	Puzzle Solving
+Hexagon Grid	Puzzle Solving
+Enclosure	Puzzle Solving
+Path Building	Puzzle Solving
+Measurement Movement	Puzzle Solving
+Line Drawing	Puzzle Solving
+Action Points	Strategy and Planning
+Action Queue	Strategy and Planning
+Programming	Strategy and Planning
+Simultaneous Action Selection	Strategy and Planning
+Deck Building	Strategy and Planning
+Variable Phase Order	Strategy and Planning
+Tech Trees / Tech Tracks	Strategy and Planning
+Variable Player Powers	Strategy and Planning
+Legacy Game	Exploration
+Finale Ending	Strategy and Planning
+Scenario / Mission / Campaign Game	Exploration
+Map Exploration	Exploration
+Campaign / Battle Card Driven	Exploration
+Narrative Choice / Paragraph	Exploration
+Storytelling	Exploration
+Hidden Movement	Exploration
+Map Reduction	Exploration
+Map Addition	Exploration
+Bluffing	Social Interaction
+Hidden Roles	Social Interaction
+Voting	Social Interaction
+Singing	Social Interaction
+Bribery	Social Interaction
+Player Judge	Social Interaction
+Hot Potato	Social Interaction
+Traitor Game	Social Interaction
+Push Your Luck	Randomness and Luck
+Random Production	Randomness and Luck
+Drawing	Randomness and Luck
+Die Icon Resolution	Randomness and Luck
+Critical Hits and Failures	Randomness and Luck
+Rock-Paper-Scissors	Randomness and Luck
+Betting and Bluffing	Randomness and Luck
+Unknown	Miscellaneous / Other
+Advantage Token	Miscellaneous / Other
+Bias	Miscellaneous / Other
+Elapsed Real Time Ending	Miscellaneous / Other
+Single Loser Game	Miscellaneous / Other
+Passed Action Token	Miscellaneous / Other
+I Cut You Choose	Miscellaneous / Other
+Action Timer	Miscellaneous / Other

@@ -1,0 +1,123 @@
+{
+  "TexasHoldemRules": {
+    "Setup": {
+      "Players": {
+        "Minimum": 2,
+        "Maximum": 10
+      },
+      "Deck": {
+        "Cards": 52,
+        "Type": "Standard without Jokers"
+      },
+      "Chips": "Distributed to players for betting"
+    },
+    "Gameplay": {
+      "Rounds": [
+        {
+          "Name": "Pre-Flop",
+          "Description": "Players receive two hole cards each."
+        },
+        {
+          "Name": "Flop",
+          "Description": "Three community cards are dealt face-up."
+        },
+        {
+          "Name": "Turn",
+          "Description": "A fourth community card is dealt face-up."
+        },
+        {
+          "Name": "River",
+          "Description": "A fifth and final community card is dealt face-up."
+        },
+        {
+          "Name": "Showdown",
+          "Description": "Players reveal their hole cards, and the best hand wins."
+        }
+      ],
+      "Betting": {
+        "Structure": "Blinds and Betting Rounds",
+        "Blinds": {
+          "SmallBlind": "Mandatory bet by player to dealer's left.",
+          "BigBlind": "Mandatory bet by the next player to the left."
+        },
+        "Actions": [
+          "Fold",
+          "Call",
+          "Raise",
+          "Check"
+        ]
+      }
+    },
+    "HandRankings": [
+      {
+        "Rank": 1,
+        "Name": "Royal Flush",
+        "Description": "A, K, Q, J, 10 of the same suit."
+      },
+      {
+        "Rank": 2,
+        "Name": "Straight Flush",
+        "Description": "Five cards in sequence of the same suit."
+      },
+      {
+        "Rank": 3,
+        "Name": "Four of a Kind",
+        "Description": "Four cards of the same rank."
+      },
+      {
+        "Rank": 4,
+        "Name": "Full House",
+        "Description": "Three of a kind and a pair."
+      },
+      {
+        "Rank": 5,
+        "Name": "Flush",
+        "Description": "Five cards of the same suit."
+      },
+      {
+        "Rank": 6,
+        "Name": "Straight",
+        "Description": "Five cards in sequence of any suit."
+      },
+      {
+        "Rank": 7,
+        "Name": "Three of a Kind",
+        "Description": "Three cards of the same rank."
+      },
+      {
+        "Rank": 8,
+        "Name": "Two Pair",
+        "Description": "Two different pairs."
+      },
+      {
+        "Rank": 9,
+        "Name": "One Pair",
+        "Description": "Two cards of the same rank."
+      },
+      {
+        "Rank": 10,
+        "Name": "High Card",
+        "Description": "The highest card when no other hand is made."
+      }
+    ],
+    "Rules": {
+      "Dealer": {
+        "Selection": "Determined by a random draw initially, then rotates clockwise."
+      },
+      "BettingRounds": [
+        "Pre-Flop",
+        "Flop",
+        "Turn",
+        "River"
+      ],
+      "Showdown": {
+        "Winner": "Player with the best 5-card hand."
+      },
+      "TieBreaker": "The pot is split among players with the same best hand."
+    },
+    "SpecialSituations": {
+      "AllIn": "If a player goes all-in, a side pot is created for additional bets by other players.",
+      "Misdeal": "If the dealer makes a mistake in dealing, the hand is voided and re-dealt."
+    }
+  }
+}

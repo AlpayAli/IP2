@@ -1,0 +1,63 @@
+[2025-01-05 15:34:56] Initializing the database...
+[2025-01-05 15:34:56] Available models: ['nomic-embed-text:latest', 'llama3:latest']
+[2025-01-05 15:34:56] API and model are healthy.
+[2025-01-05 15:34:56] Database already exists. Skipping creation and population.
+[2025-01-05 15:41:39] Initializing the database...
+[2025-01-05 15:41:39] Available models: ['nomic-embed-text:latest', 'llama3:latest']
+[2025-01-05 15:41:39] API and model are healthy.
+[2025-01-05 15:41:39] Database already exists. Skipping creation and population.
+[2025-01-05 16:07:08] Initializing the database...
+[2025-01-05 16:07:08] Available models: ['nomic-embed-text:latest', 'llama3:latest']
+[2025-01-05 16:07:08] API and model are healthy.
+[2025-01-05 16:07:08] Database already exists. Skipping creation and population.
+[2025-01-05 19:27:31] Initializing the database...
+[2025-01-05 19:27:31] Available models: ['nomic-embed-text:latest', 'llama3:latest']
+[2025-01-05 19:27:31] API and model are healthy.
+[2025-01-05 19:27:31] Database already exists. Skipping creation and population.
+[2025-01-05 19:36:42] Initializing the database...
+[2025-01-05 19:36:42] Available models: ['nomic-embed-text:latest', 'llama3:latest']
+[2025-01-05 19:36:42] API and model are healthy.
+[2025-01-05 19:36:42] Database already exists. Skipping creation and population.
+[2025-01-05 19:40:32] Initializing the database...
+[2025-01-05 19:40:32] Available models: ['nomic-embed-text:latest', 'llama3:latest']
+[2025-01-05 19:40:32] API and model are healthy.
+[2025-01-05 19:40:32] Database already exists. Skipping creation and population.
+[2025-01-05 19:43:54] Initializing the database...
+[2025-01-05 19:43:54] Available models: ['nomic-embed-text:latest', 'llama3:latest']
+[2025-01-05 19:43:54] API and model are healthy.
+[2025-01-05 19:43:54] Database already exists. Skipping creation and population.
+[2025-01-05 20:27:51] Initializing the database...
+[2025-01-05 20:27:51] Available models: ['nomic-embed-text:latest', 'llama3:latest']
+[2025-01-05 20:27:51] API and model are healthy.
+[2025-01-05 20:27:51] Database already exists. Skipping creation and population.
+[2025-01-05 20:29:54] Initializing the database...
+[2025-01-05 20:29:54] Available models: ['nomic-embed-text:latest', 'llama3:latest']
+[2025-01-05 20:29:54] API and model are healthy.
+[2025-01-05 20:29:54] Database already exists. Skipping creation and population.
+[2025-01-05 20:31:38] Initializing the database...
+[2025-01-05 20:31:38] Available models: ['nomic-embed-text:latest', 'llama3:latest']
+[2025-01-05 20:31:38] API and model are healthy.
+[2025-01-05 20:31:38] Database file not found. Creating database...
+[2025-01-05 20:31:38] Populating the database with data from JSON...
+[2025-01-05 20:31:39] Database population completed successfully.
+[2025-01-05 20:31:39] Database created and populated successfully.
+[2025-01-07 20:18:33] Initializing the database...
+[2025-01-07 20:18:33] Available models: []
+[2025-01-07 20:18:33] Health check attempt 1 failed: Model 'llama3:latest' is not available.
+[2025-01-07 20:19:33] Available models: []
+[2025-01-07 20:19:33] Health check attempt 2 failed: Model 'llama3:latest' is not available.
+[2025-01-07 20:20:33] Available models: []
+[2025-01-07 20:20:33] Health check attempt 3 failed: Model 'llama3:latest' is not available.
+[2025-01-07 20:21:33] Available models: []
+[2025-01-07 20:21:33] Health check attempt 4 failed: Model 'llama3:latest' is not available.
+[2025-01-07 20:22:33] Available models: []
+[2025-01-07 20:22:33] Health check attempt 5 failed: Model 'llama3:latest' is not available.
+[2025-01-07 20:23:33] Available models: []
+[2025-01-07 20:23:33] Health check attempt 6 failed: Model 'llama3:latest' is not available.
+[2025-01-07 20:24:33] Available models: []
+[2025-01-07 20:24:33] Health check attempt 7 failed: Model 'llama3:latest' is not available.
+[2025-01-07 20:25:33] Available models: []
+[2025-01-07 20:25:33] Health check attempt 8 failed: Model 'llama3:latest' is not available.
+[2025-01-07 20:26:33] Available models: ['nomic-embed-text:latest', 'llama3:latest']
+[2025-01-07 20:26:33] API and model are healthy.
+[2025-01-07 20:26:33] Database already exists. Skipping creation and population.
